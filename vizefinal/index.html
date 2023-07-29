@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Not Hesaplayıcı</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Not Hesaplayıcı</h1>
+    <p class="description">Bu hesaplayıcı ile vize ve final notlarınıza göre dersinizin dönem sonu notunu hesaplayabilirsiniz. Eğer vize 2 notunuz yoksa, vize 1 ve final notunuzun ortalaması hesaplanacaktır.</p>
+    <label for="vize1">Vize 1 Notu:</label>
+    <input type="number" id="vize1" required><br>
+
+    <label for="hasVize2">Vize 2 Var mı?</label>
+    <input type="checkbox" id="hasVize2" onclick="toggleVize2Input()"><br>
+
+    <div id="vize2Container" style="display:none;">
+      <label for="vize2">Vize 2 Notu:</label>
+      <input type="number" id="vize2Input"><br>
+    </div>
+
+    <label for="final">Final Notu:</label>
+    <input type="number" id="final" required><br>
+
+    <button onclick="calculateAverage()">Ortalama Hesapla</button>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
