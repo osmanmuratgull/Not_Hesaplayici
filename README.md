@@ -10,7 +10,7 @@ Bu proje, vize ve final notlarınıza göre dersinizin dönem sonu notunu hesapl
 
 ## Kullanım
 
-1. Uygulamayı açın: [Not Hesaplayıcı](https://localhost/not-hesaplayici)
+1. Uygulamayı VScode ile açın
 2. Vize 1 notunuzu "Vize 1 Notu" alanına girin.
 3. Eğer vize 2 notunuz varsa, "Vize 2 Var mı?" kutucuğunu işaretleyin ve vize 2 notunuzu "Vize 2 Notu" alanına girin.
 4. Final notunuzu "Final Notu" alanına girin.
